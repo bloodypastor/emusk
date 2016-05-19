@@ -1,3 +1,239 @@
 @import url(reset.css);
+body {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Oxygen', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+#header-nav {
+    background-image: url('../img/header.jpg');
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-img {
+    background: url('../img/musk.logo.small.second.jpg') no-repeat;
+    width: 200px;
+    height: 100px;
+    margin: 30px 15px 10px 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Musk logo name */
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    font-weight: bold;
+    /* text-shadow: 1px 1px 1px #222; */
+    margin-bottom: 0;
+    line-height: 0.75;
+    margin-top: 26px;
+}
+.navbar-brand p {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+}
+
+#nav-list {
+    margin-top: 30px;
+    font-size: 1.3em;
+}
+
+#nav-list a {
+    color: #fff;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    border: 1px solid #FFFFFF;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #fff;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #333;
+}
+
+/** CAROUSEL **/
+.rov {
+    display: inline-block;
+}
+
+.carousel {
+    position: relative;
+}
+.carousel-caption h1 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.label-default {
+    font-size: 20px;
+    margin-left: 104px;
+    padding: 7px;
+    background-color: #679A64;
+}
+.img-rounded {
+    margin-top: 20px;
+}
+.col-md-4 {
+    background-color: #ccc;
+}
+.col-md-4 ul {
+    list-style: none;
+}
+/** LINKS LIST **/
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    margin-top: 10px;
+    z-index: 2;
+    color: #fff;
+    background-color: #42382D;
+    border-color: #000000;
+}
+.list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 30px;
+}
+/** PANEL **/
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+.panel-body h3 {
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+}
+.panel-body {
+    background-color: #963131;
+    padding: 20px;
+    font-size: 21px;
+}
+.panel-footer img {
+    float: left;
+    margin-right: 20px;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+.btn-info {
+    width: 95px;
+    height: 31px;
+    color: #fff;
+    background-color: #676767;
+    border-color: #676767;
+    font-size: 13px;
+    padding: 6px;
+}
+.btn-info:hover {
+    background-color: #D9534F;
+    border-color: #D9534F;
+    color: #000;
+}
+.panel-footer {
+    color: #000;
+    padding: 5px
+}
+/** COMPANY **/
+.thumbnail {
+}
+.btn-primary, .btn-success, .btn-danger {
+    width: 100%;
+}
+.caption h3 {
+    text-align: center;
+    font-size: 22px;
+}
+.caption p {
+    text-align: center;
+    color: #7B8B94;
+}
+.caption a {
+    color: #fff;
+}
+#space {
+    border: 1px solid #000;
+    background-color: #000;
+}
+/** FOOTER **/
+footer {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/header.jpg");
+}
 
 
+
+
+
+
+
+
+
+
+/** MEDIA QUERY **/
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-right {
+        float: right;
+        margin-right: 100px;
+    }
+    .navbar-brand h1 {
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-brand h1 {
+        margin-top: -13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-right {
+
+        margin-right: -55px;
+    }
+    .navbar-brand h1 {
+        margin-top: 12px;
+    }
+}
+
+@media  (min-width: 768px) {
+    .carousel-indicators {
+        bottom: 10px;
+    }
+}
+
+@media (max-width: 479px) {
+    .navbar-brand h1 {
+        margin-top: 12px;
+    }
+}
