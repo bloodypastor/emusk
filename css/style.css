@@ -9,7 +9,7 @@ a {
     text-decoration: none;
 }
 #header-nav {
-    background-image: url('../img/new header.jpg');
+    background: url('../img/new header.jpg');
     border-radius: 0;
     height: 258px;
     border: 0;
@@ -92,6 +92,9 @@ a {
 .rov {
     display: inline-block;
 }
+.carousel-control .glyphicon-chevron-left {
+    margin-left: -584px;
+}
 
 .carousel {
     position: relative;
@@ -130,6 +133,7 @@ a {
     border-bottom-left-radius: 30px;
 }
 /** PANEL **/
+
 .panel {
     margin-bottom: 20px;
     background-color: #fff;
