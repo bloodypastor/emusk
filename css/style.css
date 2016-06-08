@@ -9,7 +9,7 @@ a {
     text-decoration: none;
 }
 #header-nav {
-    background: url('../img/new header.jpg');
+    background: url('../img/new header.jpg') no-repeat;
     border-radius: 0;
     height: 258px;
     border: 0;
